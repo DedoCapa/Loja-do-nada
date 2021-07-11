@@ -1,0 +1,140 @@
+.back_button {
+  transition: all ease-in-out 0.2s;
+  background-color: teal;
+  font-family: Apple Chancery, cursive;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  float: right;
+  bottom: 5px;
+  position: fixed;
+  right: 5px;
+  padding: 3px 5px 3px 5px;
+}
+
+.back_button:hover {
+  background-color: rgba(0, 128, 128, 0.7);
+  border: 1px solid teal;
+}
+
+.botoes:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.imagem {
+  position: absolute;
+  position: fixed;
+  top: 7px;
+  left: 7px;
+}
+
+span {
+  text-align: center;
+  padding: 20px 30px 20px 30px;
+}
+
+.retangulo {
+  height: 79px;
+  width: 100%;
+}
+
+#overlay {
+  position: relative;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+}
+
+.texto {
+  text-align: center;
+  margin-left: 289.5px;
+  margin-top: 266.5px;
+  font-family: Apple Chancery, cursive;
+  font-size: 17px;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 50%;
+  border: 2px dashed teal;
+}
+
+.botoes {
+  transition: all ease-in-out 0.2s;
+  background-color: teal;
+  font-family: Apple Chancery, cursive;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 3px 5px 3px 5px;
+  top: 20px;
+  position: fixed;
+  position: absolute;
+}
+
+.botao_login {
+  left: 200px;
+}
+
+.botao_sign {
+  left: 100px;
+}
+
+.botao_aboutus {
+  left: 280.59;
+}
+
+.profileicon {
+  position: absolute;
+  position: fixed;
+  z-index: 1;
+  top: 15px;
+  right: 16px;
+}
+
+p {
+  background-color: teal;
+  font-family: Apple Chancery, cursive;
+  text-decoration: none;
+  z-index: 3;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  top: 26px;
+  right: 74px;
+  position: fixed;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+p:hover {
+  transition: all ease-in-out 0.2s;
+  z-index: 2;
+  position: absolute;
+  position: fixed;
+  padding: 17px 65px 15px 7px;
+  top: 9px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  right: 9px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.profile {
+  z-index: 2;
+  position: absolute;
+  position: fixed;
+  top: 0px;
+  right: 8px;
+}
+
+.profileicon:hover {
+  transition: all ease-in-out 0.2s;
+  position: absolute;
+  position: fixed;
+  top: 15px;
+}

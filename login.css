@@ -1,0 +1,201 @@
+.espaço {
+  padding-bottom: 50px;
+}
+
+.formulario {
+  font-family: Courier New, monospace;
+  color: white;
+  padding-top: 260px;
+}
+
+.signupframe {
+  padding-left: 600px;
+}
+
+.retangulo {
+  border-radius: 10px;
+}
+
+#overlay {
+  z-index: -1;
+  padding-left: 585px;
+  padding-top: 245px;
+  object-position: center;
+  position: absolute;
+}
+
+.imagem {
+  position: absolute;
+  z-index: 2;
+}
+
+#originalDiv {
+  z-index: 1;
+  object-position: center;
+  position: absolute;
+}
+
+.botoes {
+  display: inline-block;
+}
+
+.back_button {
+  transition: all ease-in-out 0.2s;
+  background-color: teal;
+  font-family: Apple Chancery, cursive;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  float: right;
+  bottom: 5px;
+  position: fixed;
+  right: 5px;
+  margin-top: 518px;
+  padding: 3px 5px 3px 5px;
+}
+
+.embaixodoform {
+  transition: all ease-in-out 0.2s;
+  background-color: teal;
+  font-family: Apple Chancery, cursive;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 3px 10px 3px 10px;
+}
+
+.botoes:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.back_button:hover {
+  background-color: rgba(0, 128, 128, 0.7);
+  border: 1px solid teal;
+}
+
+.botoesmenu:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.imagemmenu {
+  position: absolute;
+  position: fixed;
+  z-index: 2;
+  top: 7px;
+  left: 7px;
+}
+
+span {
+  text-align: center;
+  padding: 20px 30px 20px 30px;
+}
+
+.retangulomenu {
+  height: 79px;
+  width: 100%;
+  border-radius: 0px;
+}
+
+#overlaymenu {
+  position: relative;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+}
+
+.texto {
+  text-align: center;
+  margin-left: 289.5px;
+  margin-top: 266.5px;
+  font-family: Apple Chancery, cursive;
+  font-size: 17px;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 50%;
+  border: 2px dashed teal;
+}
+
+.botoesmenu {
+  transition: all ease-in-out 0.2s;
+  background-color: teal;
+  font-family: Apple Chancery, cursive;
+  text-decoration: none;
+  z-index: 2;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 3px 5px 3px 5px;
+  top: 20px;
+  position: fixed;
+  position: absolute;
+}
+
+.botao_login {
+  left: 200px;
+}
+
+.botao_sign {
+  left: 100px;
+}
+
+.botao_aboutus {
+  left: 280.59;
+}
+
+.profileicon {
+  position: absolute;
+  position: fixed;
+  z-index: 1;
+  top: 15px;
+  right: 16px;
+}
+
+p {
+  background-color: teal;
+  font-family: Apple Chancery, cursive;
+  text-decoration: none;
+  z-index: 3;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  top: 26px;
+  right: 74px;
+  position: fixed;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+p:hover {
+  transition: all ease-in-out 0.2s;
+  z-index: 2;
+  position: absolute;
+  position: fixed;
+  padding: 17px 65px 15px 7px;
+  top: 9px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  right: 9px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.profile {
+  z-index: 2;
+  position: absolute;
+  position: fixed;
+  top: 0px;
+  right: 8px;
+}
+
+.profileicon:hover {
+  transition: all ease-in-out 0.2s;
+  position: absolute;
+  position: fixed;
+  top: 15px;
+}
